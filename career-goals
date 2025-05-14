@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career Goals - James Porter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Career Goals</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>My Professional Vision</h2>
+            <p>My goal is to leverage my expertise in cybersecurity and data analytics to secure critical systems and influence policy within a federal agency or defense contractor. I strive to constantly learn, apply ethical security practices, and mentor others in the field.</p>
+
+            <h2>Media</h2>
+            <img src="cybersecurity.jpg" alt="Cybersecurity Concept Image" width="400">
+            <audio controls>
+                <source src="career-message.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <video width="400" controls>
+                <source src="goals-intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required><br>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea><br>
+
+                <p>Best Contact Time:</p>
+                <input type="radio" id="am" name="time" value="am">
+                <label for="am">A.M.</label>
+                <input type="radio" id="pm" name="time" value="pm">
+                <label for="pm">P.M.</label>
+                <input type="radio" id="anytime" name="time" value="anytime" checked>
+                <label for="anytime">Anytime</label><br>
+
+                <label for="method">Preferred Contact Method:</label>
+                <select id="method" name="method">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 James Porter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
